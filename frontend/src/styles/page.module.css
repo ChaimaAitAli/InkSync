@@ -1,0 +1,100 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Dosis:wght@200..800&family=Quicksand:wght@300..700&display=swap');
+
+.alata-regular {
+    font-family: "Alata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dosis {
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-family: "Alata", serif;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 1;
+    text-align: left;
+    font-family: "Dosis", serif;
+    margin-left: 2rem;
+    max-width: 100%;
+}
+
+.button {
+    background-color: #4E31AA;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-family: "Dosis", serif;
+    margin-top: 15px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #3a1078;
+    transform: scale(1.05);
+}
+
+.imageContainer {
+    flex: 1;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.responsiveTitle {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.responsiveText {
+    color: #595959;
+    margin-top: 15px;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    .imageContainer {
+        margin-left: 0;
+    }
+
+    .responsiveTitle {
+        font-size: 2rem !important;
+    }
+
+    .responsiveText {
+        font-size: 1rem;
+    }
+}

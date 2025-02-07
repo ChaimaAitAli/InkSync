@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Dosis:wght@200..800&family=Quicksand:wght@300..700&display=swap');
+
+.alata {
+    font-family: "Alata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dosis {
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-gray-50 {
+    background-color: #F7F7F8;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.BigContainer {
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.BigContainerS {
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.bg-purple-700 {
+    background-color: #6D28D9;
+}
+
+.bg-purple-800:hover {
+    background-color: #5B21B6;
+}
+
+.ring-purple-500 {
+    --tw-ring-color: #8B5CF6;
+}
+
+.submitButton {
+    background-color: #5B21B6;
+    color: white;
+    border-radius: 30px;
+    border-color: transparent;
+    font-family: "Dosis", serif;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 40px;
+}
+
+/* Responsive padding */
+@media (max-width: 640px) {
+    .p-8 {
+        padding: 1.5rem;
+    }
+}
