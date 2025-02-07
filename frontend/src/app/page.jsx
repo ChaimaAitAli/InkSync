@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import pic from "../assets/echantillon.png";
 import styles from "../styles/page.module.css";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
           <h5 className={styles.responsiveText}>
             Simplify your work and collaborate with your team members on Documents in real-time.
           </h5>
-          <button className={styles.button}>Get Started</button>
+          <Link href="/signUp"><button className={styles.button}>Get Started</button></Link>
         </div>
         <div className={styles.imageContainer}>
           <Image

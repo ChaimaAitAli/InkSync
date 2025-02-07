@@ -102,6 +102,10 @@ export default function SignUp() {
                             Sign Up
                         </button>
                     </div>
+                    <div className="d-flex justify-content-center" style={{ marginTop: "6px", fontWeight: "600" }}>
+                        <span className={`${styles.dosis}`}>Already have an account?</span>
+                        <span className={`${styles.dosis}`}><Link href="/Login" style={{ color: "#4e31aa" }}> Sign In</Link></span>
+                    </div>
                 </form>
             </div >
         </div >

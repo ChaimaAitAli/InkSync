@@ -60,12 +60,12 @@ const Navbar = () => {
                     </ul>
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item login nav-spacing-login">
-                            <Link href="#" className="nav-link dosis" style={{ color: "#3795bd" }}>
+                            <Link href="/Login" className="nav-link dosis" style={{ color: "#3795bd" }}>
                                 Login
                             </Link>
                         </li>
                         <li className="nav-item get-started">
-                            <Link href="#" className="nav-link dosis">
+                            <Link href="/signUp" className="nav-link dosis">
                                 Get Started
                             </Link>
                         </li>
